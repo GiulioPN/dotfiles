@@ -1,0 +1,91 @@
+{
+  "plugins": {
+    "agentic.nvim": {
+      "rev": "58c38cf5a8e77b3a88853e6f99cefdd5bcfbbe08",
+      "src": "https://github.com/carlos-algms/agentic.nvim.git"
+    },
+    "avante.nvim": {
+      "rev": "8c84af0f09e5d9058362ac58401a8e7b047d826e",
+      "src": "https://github.com/yetone/avante.nvim.git"
+    },
+    "blink.cmp": {
+      "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
+      "src": "https://github.com/Saghen/blink.cmp.git",
+      "version": "1.0.0 - 2.0.0"
+    },
+    "catppuccin": {
+      "rev": "426dbebe06b5c69fd846ceb17b42e12f890aedf1",
+      "src": "https://github.com/catppuccin/nvim.git"
+    },
+    "conform.nvim": {
+      "rev": "3543d000dafbc41cc7761d860cfdb24e82154f75",
+      "src": "https://github.com/stevearc/conform.nvim.git",
+      "version": "'v9.1.0'"
+    },
+    "grug-far.nvim": {
+      "rev": "21604255d0e8f9968322f61f2b6c09e5efe1285a",
+      "src": "https://github.com/MagicDuck/grug-far.nvim.git",
+      "version": "'1.6.67'"
+    },
+    "mason-auto-install.nvim": {
+      "rev": "fd76cea6bbac98726c0c763deea3c449adf50daf",
+      "src": "https://github.com/owallb/mason-auto-install.nvim.git",
+      "version": "'main'"
+    },
+    "mason-lspconfig.nvim": {
+      "rev": "f2fa60409630ec2d24acf84494fb55e1d28d593c",
+      "src": "https://github.com/mason-org/mason-lspconfig.nvim.git",
+      "version": "'v2.1.0'"
+    },
+    "mason-tool-installer.nvim": {
+      "rev": "443f1ef8b5e6bf47045cb2217b6f748a223cf7dc",
+      "src": "https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim.git"
+    },
+    "mason.nvim": {
+      "rev": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65",
+      "src": "https://github.com/mason-org/mason.nvim.git",
+      "version": "'v2.2.1'"
+    },
+    "nui.nvim": {
+      "rev": "de740991c12411b663994b2860f1a4fd0937c130",
+      "src": "https://github.com/MunifTanjim/nui.nvim.git"
+    },
+    "nvim-lint": {
+      "rev": "eab58b48eb11d7745c11c505e0f3057165902461",
+      "src": "https://github.com/mfussenegger/nvim-lint.git",
+      "version": "'master'"
+    },
+    "nvim-lspconfig": {
+      "rev": "0203a9608d63eda57679b01e69f33a7b4c34b0d1",
+      "src": "https://github.com/neovim/nvim-lspconfig.git",
+      "version": "'v2.7.0'"
+    },
+    "nvim-treesitter": {
+      "rev": "4916d6592ede8c07973490d9322f187e07dfefac",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter.git",
+      "version": "'main'"
+    },
+    "nvim-web-devicons": {
+      "rev": "c72328a5494b4502947a022fe69c0c47e53b6aa6",
+      "src": "https://github.com/nvim-tree/nvim-web-devicons.git"
+    },
+    "opencode.nvim": {
+      "rev": "0ce125b609744604054bab5c67e6ff4601a4853d",
+      "src": "https://github.com/sudo-tee/opencode.nvim.git"
+    },
+    "plenary.nvim": {
+      "rev": "50012918b2fc8357b87cff2a7f7f0446e47da174",
+      "src": "https://github.com/nvim-lua/plenary.nvim.git",
+      "version": "'v0.1.4'"
+    },
+    "telescope-fzf-native.nvim": {
+      "rev": "6fea601bd2b694c6f2ae08a6c6fab14930c60e2c",
+      "src": "https://github.com/nvim-telescope/telescope-fzf-native.nvim.git"
+    },
+    "telescope.nvim": {
+      "rev": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026",
+      "src": "https://github.com/nvim-telescope/telescope.nvim.git",
+      "version": "'master'"
+    }
+  }
+}

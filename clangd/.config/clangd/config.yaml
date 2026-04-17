@@ -1,0 +1,18 @@
+CompileFlags:
+  Add: [-std=c++20]
+Diagnostics:
+  ClangTidy:
+    Add:
+      - modernize*
+      - clang-analyzer*
+      - bugprone*
+      - readability*
+      - performance*
+      - cppcoreguidelines*
+    Remove:
+      - modernize-use-trailing-return-type
+      - readability-implicit-bool-conversion
+      - cppcoreguidelines-pro-type-reinterpret-cast
+      - readability-identifier-length
+      - performance-avoid-endl
+
