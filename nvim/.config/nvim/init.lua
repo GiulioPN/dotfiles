@@ -25,5 +25,6 @@ require("plugins.linter")
 require("plugins.theme")
 require("plugins.search")
 require("plugins.autocomplete")
+require("plugins.filetree")
 
 require("config.diagnostic")
