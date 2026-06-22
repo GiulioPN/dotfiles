@@ -44,8 +44,30 @@ vim.lsp.config("clangd", {
   },
 })
 
+vim.lsp.config("pyright", {
+  cmd = { "pyright-langserver", "--stdio" },
+  root_markers = {
+    "pyproject.toml",
+    "uv.lock",
+    "setup.py",
+    "setup.cfg",
+    "requirements.txt",
+    ".git",
+  },
+  settings = {
+    python = {
+      analysis = {
+        autoSearchPaths = true,
+        useLibraryCodeForTypes = true,
+        diagnosticMode = "openFilesOnly",
+      },
+    },
+  },
+})
+
 vim.lsp.enable("clangd")
 vim.lsp.enable("marksman")
+vim.lsp.enable("pyright")
 
 require("mason-auto-install").setup({
   packages = { "clang-format", "prettierd", "markdownlint", "stylua" },

@@ -20,5 +20,11 @@ clangd-add-config:
 prettier-add-config:
     stow -t ~ prettier
 
+pyright-install:
+    uv tool install pyright
+
+ruff-install:
+    uv tool install ruff
+
 status:
     @ls -la {{HOME_DIR}} | grep "\->"

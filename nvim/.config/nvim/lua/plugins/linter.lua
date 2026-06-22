@@ -5,6 +5,7 @@ vim.pack.add({
 
 require("lint").linters_by_ft = {
   markdown = { "markdownlint" },
+  python = { "ruff" },
 }
 vim.api.nvim_create_autocmd({ "BufWritePost", "BufReadPost", "InsertLeave", "FileType" }, {
   callback = function()
