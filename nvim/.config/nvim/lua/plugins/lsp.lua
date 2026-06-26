@@ -39,10 +39,14 @@ vim.lsp.config("clangd", {
     "build.ninja",
     ".git",
   },
-  keys = {
-    { "<leader>ch", "<cmd>LspClangdSwitchSourceHeader<cr>", desc = "Switch Source/Header (C/C++)" },
-  },
 })
+
+vim.keymap.set(
+  "n",
+  "<leader>ch",
+  "<cmd>LspClangdSwitchSourceHeader<cr>",
+  { desc = "Switch Source/Header (C/C++)" }
+)
 
 vim.lsp.config("pyright", {
   cmd = { "pyright-langserver", "--stdio" },
