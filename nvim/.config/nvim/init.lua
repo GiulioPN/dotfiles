@@ -16,6 +16,7 @@ opt.expandtab = true -- Use spaces instead of tabs
 opt.tabstop = 4 -- Number of spaces for a tab
 opt.softtabstop = 4 -- Number of spaces for a tab when editing
 opt.shiftwidth = 4 -- Number of spaces for autoindent
+opt.splitright = true -- Create new buffer on right side
 
 --: Load plugin modules
 require("plugins.lsp")
