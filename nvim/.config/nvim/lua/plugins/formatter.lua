@@ -9,6 +9,7 @@ require("conform").setup({
     cpp = { "clang-format" },
     lua = { "stylua" },
     markdown = { "prettierd" },
+    json = { "prettierd" },
     python = { "ruff_format" },
   },
   format_on_save = {
