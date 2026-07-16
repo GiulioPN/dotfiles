@@ -26,5 +26,8 @@ pyright-install:
 ruff-install:
     uv tool install ruff
 
+cmakelang-install:
+    uv tool install cmakelang
+
 status:
     @ls -la {{HOME_DIR}} | grep "\->"

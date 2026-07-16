@@ -11,6 +11,7 @@ require("conform").setup({
     markdown = { "prettierd" },
     json = { "prettierd" },
     python = { "ruff_format" },
+    cmake = { "cmake_format" },
   },
   format_on_save = {
     lsp_fallback = true,
