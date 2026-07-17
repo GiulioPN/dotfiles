@@ -20,6 +20,9 @@ clangd-add-config:
 prettier-add-config:
     stow -t ~ prettier
 
+cmake-format-add-config:
+    stow -t ~ cmake-format
+
 pyright-install:
     uv tool install pyright
 
