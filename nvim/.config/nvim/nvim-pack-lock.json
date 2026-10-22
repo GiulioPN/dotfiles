@@ -13,6 +13,11 @@
       "rev": "534d4cb6a8f1666b3f69c8540760a869aff651a3",
       "src": "https://github.com/J-Cowsert/classlayout.nvim.git"
     },
+    "claudecode.nvim": {
+      "rev": "2e6ea6f2a63cdf4fd3c05e6a054151d46848d319",
+      "src": "https://github.com/coder/claudecode.nvim",
+      "version": "'v0.3.0'"
+    },
     "conform.nvim": {
       "rev": "3543d000dafbc41cc7761d860cfdb24e82154f75",
       "src": "https://github.com/stevearc/conform.nvim.git",
