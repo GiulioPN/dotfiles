@@ -75,6 +75,11 @@
       "src": "https://github.com/nvim-lua/plenary.nvim.git",
       "version": "'v0.1.4'"
     },
+    "supermaven-nvim": {
+      "rev": "07d20fce48a5629686aefb0a7cd4b25e33947d50",
+      "src": "https://github.com/supermaven-inc/supermaven-nvim",
+      "version": "'07d20fce48a5629686aefb0a7cd4b25e33947d50'"
+    },
     "telescope-fzf-native.nvim": {
       "rev": "6fea601bd2b694c6f2ae08a6c6fab14930c60e2c",
       "src": "https://github.com/nvim-telescope/telescope-fzf-native.nvim.git"
