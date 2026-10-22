@@ -27,5 +27,6 @@ require("plugins.theme")
 require("plugins.search")
 require("plugins.autocomplete")
 require("plugins.filetree")
+require("plugins.classlayout")
 
 require("config.diagnostic")

@@ -26,6 +26,7 @@ vim.lsp.config("clangd", {
     "--completion-style=detailed",
     "--function-arg-placeholders",
     "--fallback-style=llvm",
+    "--query-driver=/usr/bin/clang++-22,/usr/bin/clang++",
   },
   root_markers = {
     "compile_commands.json",
@@ -41,12 +42,7 @@ vim.lsp.config("clangd", {
   },
 })
 
-vim.keymap.set(
-  "n",
-  "<leader>ch",
-  "<cmd>LspClangdSwitchSourceHeader<cr>",
-  { desc = "Switch Source/Header (C/C++)" }
-)
+vim.keymap.set("n", "<leader>ch", "<cmd>LspClangdSwitchSourceHeader<cr>", { desc = "Switch Source/Header (C/C++)" })
 
 vim.lsp.config("pyright", {
   cmd = { "pyright-langserver", "--stdio" },
