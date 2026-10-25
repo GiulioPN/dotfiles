@@ -28,6 +28,7 @@ require("plugins.search")
 require("plugins.autocomplete")
 require("plugins.supermaven")
 require("plugins.claude")
+require("plugins.markdown")
 require("plugins.filetree")
 require("plugins.classlayout")
 
